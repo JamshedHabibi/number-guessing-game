@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+		<meta charset = "UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Crete+Round|Hind+Madurai|Lobster|Vollkorn&display=swap" rel="stylesheet">
+</head>
+
+<body onload='randomNumber()'>
+    <div id='container'>
+        <div class='panel'>
+        <h1>I have a random number between 1-100</h1>
+        <h2>Dare to guess...?</h2><hr/>
+        <button onclick='newGame()' id = 'newgamebtn'>NEW GAME</button>
+        </div>
+        <br/>
+    
+        <div class = 'panel'>
+        <p id = 'answer'>Guess a number and press enter!</p>
+        <input type="text" placeholder="Enter a number" id='input' onchange="compareGuess()">        
+        <p>Guesses remaining: </p><span id='remain'>10</span>
+        </div>
+        <br/>
+        <div class='panel'>
+            <p>Your previous guesses: </p>
+            <p id="guesslog"></p>
+        </div>
+	
+    </div>
+
+    <script src='script.js'></script>
+    
+</body>
+</html>

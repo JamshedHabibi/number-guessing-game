@@ -1,0 +1,38 @@
+    body {
+      background: url('background.jpg');
+      text-align: center;
+      color: teal;
+    } 
+    
+    button {
+        background: mediumAquamarine;
+        color: white;
+        font-family: 'Hind Madurai', sans-serif;
+        width: 80%;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+
+    input {
+        width: 80%;
+        padding: 5px;
+    }
+
+    #container {
+        background: paleturquoise;
+        max-width: 80%;
+        margin: 0 auto;
+        border-radius: 10px;
+        padding: 10px;
+        opacity: 0.8;   
+    }
+
+    .panel {
+        background: white;
+        font-family: 'Hind Madurai', sans-serif;
+        font-size: 15px;
+        max-width: 20px auto;
+        padding: 40px;
+        border-radius: 10px;
+    }
